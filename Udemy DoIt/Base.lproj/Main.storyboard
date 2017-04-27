@@ -36,10 +36,70 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="pk9-Ba-h0v" id="OHY-l6-E8F"/>
+                        <segue destination="KQw-SA-HQ4" kind="show" id="qxt-GN-Tha"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SFf-LM-tR0">
+            <objects>
+                <viewController id="KQw-SA-HQ4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VlM-MJ-UUC"/>
+                        <viewControllerLayoutGuide type="bottom" id="W3p-ph-55N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TCh-Dr-Mli">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Uq-PF-NKt">
+                                <rect key="frame" x="162" y="50" width="53" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DZo-cJ-R8A">
+                                <rect key="frame" x="88" y="90" width="200" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CBz-TB-8zT">
+                                <rect key="frame" x="239" y="160" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Important?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPX-2H-I2T">
+                                <rect key="frame" x="88" y="166" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1X-c6-o1S">
+                                <rect key="frame" x="156" y="262" width="62" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="ADD"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DZo-cJ-R8A" firstAttribute="leading" secondItem="pPX-2H-I2T" secondAttribute="leading" id="3o8-pM-OtI"/>
+                            <constraint firstItem="Z1X-c6-o1S" firstAttribute="top" secondItem="pPX-2H-I2T" secondAttribute="bottom" constant="75" id="DKs-Ps-aNe"/>
+                            <constraint firstItem="1Uq-PF-NKt" firstAttribute="centerX" secondItem="DZo-cJ-R8A" secondAttribute="centerX" id="Dxt-1c-hjw"/>
+                            <constraint firstItem="pPX-2H-I2T" firstAttribute="top" secondItem="DZo-cJ-R8A" secondAttribute="bottom" constant="46" id="F23-8h-6AE"/>
+                            <constraint firstItem="1Uq-PF-NKt" firstAttribute="top" secondItem="VlM-MJ-UUC" secondAttribute="bottom" constant="30" id="GMM-B6-hAQ"/>
+                            <constraint firstItem="DZo-cJ-R8A" firstAttribute="top" secondItem="1Uq-PF-NKt" secondAttribute="bottom" constant="16" id="TsC-DW-NJf"/>
+                            <constraint firstItem="Z1X-c6-o1S" firstAttribute="centerX" secondItem="TCh-Dr-Mli" secondAttribute="centerX" id="qlI-qa-hDf"/>
+                            <constraint firstItem="CBz-TB-8zT" firstAttribute="top" secondItem="DZo-cJ-R8A" secondAttribute="bottom" constant="40" id="tN6-Pc-vSB"/>
+                            <constraint firstItem="DZo-cJ-R8A" firstAttribute="trailing" secondItem="CBz-TB-8zT" secondAttribute="trailing" id="wBW-n5-NcM"/>
+                            <constraint firstItem="CBz-TB-8zT" firstAttribute="leading" secondItem="pPX-2H-I2T" secondAttribute="trailing" constant="67" id="yde-oa-lKB"/>
+                            <constraint firstItem="DZo-cJ-R8A" firstAttribute="centerX" secondItem="TCh-Dr-Mli" secondAttribute="centerX" id="zeK-a9-1c4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1l6-8y-Hw9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786" y="36"/>
         </scene>
     </scenes>
 </document>
