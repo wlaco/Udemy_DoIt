@@ -13,6 +13,7 @@
 		962430EF1EB176C6008761C6 /* Udemy_DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 962430ED1EB176C6008761C6 /* Udemy_DoIt.xcdatamodeld */; };
 		962430F11EB176C6008761C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962430F01EB176C6008761C6 /* Assets.xcassets */; };
 		962430F41EB176C6008761C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962430F21EB176C6008761C6 /* LaunchScreen.storyboard */; };
+		962430FC1EB17BA3008761C6 /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962430FB1EB17BA2008761C6 /* task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		962430F01EB176C6008761C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		962430F31EB176C6008761C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		962430F51EB176C6008761C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962430FB1EB17BA2008761C6 /* task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				962430E61EB176C6008761C6 /* AppDelegate.swift */,
 				962430E81EB176C6008761C6 /* ViewController.swift */,
 				962430EA1EB176C6008761C6 /* Main.storyboard */,
+				962430FB1EB17BA2008761C6 /* task.swift */,
 				962430F01EB176C6008761C6 /* Assets.xcassets */,
 				962430F21EB176C6008761C6 /* LaunchScreen.storyboard */,
 				962430F51EB176C6008761C6 /* Info.plist */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962430FC1EB17BA3008761C6 /* task.swift in Sources */,
 				962430E91EB176C6008761C6 /* ViewController.swift in Sources */,
 				962430E71EB176C6008761C6 /* AppDelegate.swift in Sources */,
 				962430EF1EB176C6008761C6 /* Udemy_DoIt.xcdatamodeld in Sources */,
