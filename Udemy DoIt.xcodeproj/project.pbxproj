@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		962430E71EB176C6008761C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962430E61EB176C6008761C6 /* AppDelegate.swift */; };
-		962430E91EB176C6008761C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962430E81EB176C6008761C6 /* ViewController.swift */; };
+		962430E91EB176C6008761C6 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962430E81EB176C6008761C6 /* TasksViewController.swift */; };
 		962430EC1EB176C6008761C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962430EA1EB176C6008761C6 /* Main.storyboard */; };
 		962430EF1EB176C6008761C6 /* Udemy_DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 962430ED1EB176C6008761C6 /* Udemy_DoIt.xcdatamodeld */; };
 		962430F11EB176C6008761C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962430F01EB176C6008761C6 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		962430E31EB176C6008761C6 /* Udemy DoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udemy DoIt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		962430E61EB176C6008761C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		962430E81EB176C6008761C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		962430E81EB176C6008761C6 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		962430EB1EB176C6008761C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		962430EE1EB176C6008761C6 /* Udemy_DoIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Udemy_DoIt.xcdatamodel; sourceTree = "<group>"; };
 		962430F01EB176C6008761C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				962430E61EB176C6008761C6 /* AppDelegate.swift */,
-				962430E81EB176C6008761C6 /* ViewController.swift */,
+				962430E81EB176C6008761C6 /* TasksViewController.swift */,
 				962430FD1EB18EA4008761C6 /* AddTaskViewController.swift */,
 				962430EA1EB176C6008761C6 /* Main.storyboard */,
 				962430FB1EB17BA2008761C6 /* task.swift */,
@@ -146,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				962430FC1EB17BA3008761C6 /* task.swift in Sources */,
-				962430E91EB176C6008761C6 /* ViewController.swift in Sources */,
+				962430E91EB176C6008761C6 /* TasksViewController.swift in Sources */,
 				962430E71EB176C6008761C6 /* AppDelegate.swift in Sources */,
 				962430EF1EB176C6008761C6 /* Udemy_DoIt.xcdatamodeld in Sources */,
 				962430FE1EB18EA4008761C6 /* AddTaskViewController.swift in Sources */,
@@ -313,6 +313,7 @@
 				962430FA1EB176C7008761C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

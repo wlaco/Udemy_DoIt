@@ -10,26 +10,29 @@ import UIKit
 
 class AddTaskViewController: UIViewController {
 
+    @IBOutlet weak var importantSwitch: UISwitch!
+    
+    @IBOutlet weak var taskNameTextField: UITextField!
+    
+    var previousVC = TasksViewController()
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func addTapped(_ sender: Any) {
+        let newTask = Task()
+        newTask.name = taskNameTextField.text!
+        newTask.important = importantSwitch.isOn
+        
+        previousVC.tasks.append(newTask)
+        previousVC.tableView.reloadData()
+        
+        navigationController!.popViewController(animated: true)
     }
-    */
 
+    
+    
 }

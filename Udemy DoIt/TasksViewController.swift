@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TasksViewController.swift
 //  Udemy DoIt
 //
 //  Created by Will Laco on 4/26/17.
@@ -8,9 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class TasksViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
+    
     
     var tasks : [Task] = []
     
@@ -33,7 +34,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = UITableViewCell()
         let task = tasks[indexPath.row]
         if task.important == true {
-            cell.textLabel?.text = "❗️ \(task.name)"
+            cell.textLabel?.text = "\(task.name) ❗️"
         } else {
             cell.textLabel?.text = task.name
         }
@@ -55,8 +56,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         task3.important = true
         
         return [task1, task2, task3]
-    
+        
+    }
+        
+    @IBAction func goToAdd(_ sender: Any) {
+        performSegue(withIdentifier: "addSegue", sender: nil)
     }
     
-}
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! AddTaskViewController
+        nextVC.previousVC = self
+        
+    }
 
+}
