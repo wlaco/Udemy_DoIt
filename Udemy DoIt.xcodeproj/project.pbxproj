@@ -15,6 +15,7 @@
 		962430F41EB176C6008761C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962430F21EB176C6008761C6 /* LaunchScreen.storyboard */; };
 		962430FC1EB17BA3008761C6 /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962430FB1EB17BA2008761C6 /* task.swift */; };
 		962430FE1EB18EA4008761C6 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962430FD1EB18EA4008761C6 /* AddTaskViewController.swift */; };
+		96A2F7681EB80C360054743E /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A2F7671EB80C360054743E /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		962430F51EB176C6008761C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		962430FB1EB17BA2008761C6 /* task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
 		962430FD1EB18EA4008761C6 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		96A2F7671EB80C360054743E /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				962430E61EB176C6008761C6 /* AppDelegate.swift */,
 				962430E81EB176C6008761C6 /* TasksViewController.swift */,
 				962430FD1EB18EA4008761C6 /* AddTaskViewController.swift */,
+				96A2F7671EB80C360054743E /* CompleteTaskViewController.swift */,
 				962430EA1EB176C6008761C6 /* Main.storyboard */,
 				962430FB1EB17BA2008761C6 /* task.swift */,
 				962430F01EB176C6008761C6 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			files = (
 				962430FC1EB17BA3008761C6 /* task.swift in Sources */,
 				962430E91EB176C6008761C6 /* TasksViewController.swift in Sources */,
+				96A2F7681EB80C360054743E /* CompleteTaskViewController.swift in Sources */,
 				962430E71EB176C6008761C6 /* AppDelegate.swift in Sources */,
 				962430EF1EB176C6008761C6 /* Udemy_DoIt.xcdatamodeld in Sources */,
 				962430FE1EB18EA4008761C6 /* AddTaskViewController.swift in Sources */,
